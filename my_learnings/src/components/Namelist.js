@@ -1,6 +1,6 @@
 import React from 'react';
 
-const data= [
+var data = [
     {
       "name": "Bob",
       "gender": "Male",
@@ -27,15 +27,16 @@ const data= [
       "age": 64,
       "pets": [{"name": "Simba", "type": "Cat"}, {"name": "Nemo", "type": "Fish"}]
     }
-  ]
+  ];
 
-  const Namelist = ()=>{
-    //    data.map(newlist)=>{
-        return <ul>
-            {data.map()}
-        </ul>
+const NameList = () =>{
+
+    return <>
+    <ul>
+      {
+          data.map(x=><li> {x.name}</li>)
       }
-      
-    //    }
-
-  export default Namelist;
+    </ul>
+     </>
+}
+export default NameList;
