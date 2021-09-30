@@ -31,3 +31,22 @@ Array :  [
 1. Select all Name from list,
 2. Sort using Name(Ascending order) 
 3. Filter based type Cat.
+
+
+13 Array Thinhs to clear
+
+   1. map
+   2. filter
+   3.find
+   4. findIndex
+   5.sort
+   6.some(!important)
+   7.every(!important)
+   8.reduce()
+   9.includes()
+   10.concat()
+   11.flat
+   12.flatmap
+   13. outro(need to check)
+https://www.youtube.com/watch?v=m2_kagsc3_c
+Doubts
